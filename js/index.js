@@ -97,7 +97,7 @@ document.getElementById('triangle-calculate-btn').addEventListener('click', func
     const triangleBFiledValue = getInputFiledValue('triangle-b-filed');
     const triangleHFiledValue = getInputFiledValue('triangle-h-filed');
     if(isNaN(triangleBFiledValue) || isNaN(triangleHFiledValue)){
-        return alert('Places Enter Your Value');
+        return alert('Please Enter Your Value');
     }
 
     calculateBtn('triangle-b-filed', 'triangle-h-filed', 'triangle-edit', 'triangle-b-value', 'triangle-h-value', 'triangle-value-filed', 'none');
@@ -115,7 +115,7 @@ document.getElementById('triangle-edit-update').addEventListener('click', functi
     const triangleBFiledValue = getInputFiledValue('triangle-b-filed');
     const triangleHFiledValue = getInputFiledValue('triangle-h-filed');
     if(isNaN(triangleBFiledValue) || isNaN(triangleHFiledValue)){
-        return alert('Places Enter Your Value');
+        return alert('Please Enter Your Value');
     }
     editUpdate('triangle-edit', 'block', 'triangle-b-filed', 'triangle-h-filed', 'triangle-b-value', 'triangle-h-value', 'triangle-value-filed', 'none');
 });
@@ -126,7 +126,7 @@ document.getElementById('Rectangle-calculate-btn').addEventListener('click', fun
     const triangleBFiledValue = getInputFiledValue('Rectangle-b-filed');
     const triangleHFiledValue = getInputFiledValue('Rectangle-h-filed');
     if(isNaN(triangleBFiledValue) || isNaN(triangleHFiledValue)){
-        return alert('Places Enter Your Value');
+        return alert('Please Enter Your Value');
     }
     
     calculateBtn('Rectangle-b-filed', 'Rectangle-h-filed', 'Rectangle-edit', 'Rectangle-b-value', 'Rectangle-h-value','Rectangle-value-filed', 'none');
@@ -143,7 +143,7 @@ document.getElementById('Rectangle-edit-update').addEventListener('click', funct
     const triangleBFiledValue = getInputFiledValue('triangle-b-filed');
     const triangleHFiledValue = getInputFiledValue('triangle-h-filed');
     if(isNaN(triangleBFiledValue) || isNaN(triangleHFiledValue)){
-        return alert('Places Enter Your Value');
+        return alert('Please Enter Your Value');
     }
     editUpdate('Rectangle-edit', 'block', 'Rectangle-b-filed', 'Rectangle-h-filed', 'Rectangle-b-value', 'Rectangle-h-value', 'Rectangle-value-filed', 'none');
 });
@@ -154,7 +154,7 @@ document.getElementById('Parallelogram-calculate-btn').addEventListener('click',
     const triangleBFiledValue = getInputFiledValue('Parallelogram-b-filed');
     const triangleHFiledValue = getInputFiledValue('Parallelogram-h-filed');
     if(isNaN(triangleBFiledValue) || isNaN(triangleHFiledValue)){
-        return alert('Places Enter Your Value');
+        return alert('Please Enter Your Value');
     }
 
     calculateBtn('Parallelogram-b-filed', 'Parallelogram-h-filed', 'Parallelogram-edit', 'Parallelogram-b-value', 'Parallelogram-h-value','Parallelogram-value-filed', 'none');
@@ -171,7 +171,7 @@ document.getElementById('Parallelogram-edit-update').addEventListener('click', f
     const triangleBFiledValue = getInputFiledValue('triangle-b-filed');
     const triangleHFiledValue = getInputFiledValue('triangle-h-filed');
     if(isNaN(triangleBFiledValue) || isNaN(triangleHFiledValue)){
-        return alert('Places Enter Your Value');
+        return alert('Please Enter Your Value');
     }
     editUpdate('Parallelogram-edit', 'block', 'Parallelogram-b-filed', 'Parallelogram-h-filed', 'Parallelogram-b-value', 'Parallelogram-h-value', 'Parallelogram-value-filed', 'none');
 });
@@ -182,7 +182,7 @@ document.getElementById('Rhombus-calculate-btn').addEventListener('click', funct
     const triangleBFiledValue = getInputFiledValue('Rhombus-b-filed');
     const triangleHFiledValue = getInputFiledValue('Rhombus-h-filed');
     if(isNaN(triangleBFiledValue) || isNaN(triangleHFiledValue)){
-        return alert('Places Enter Your Value');
+        return alert('Please Enter Your Value');
     }
 
     calculateBtn('Rhombus-b-filed', 'Rhombus-h-filed', 'Rhombus-edit', 'Rhombus-b-value', 'Rhombus-h-value','Rhombus-value-filed', 'none');
@@ -199,7 +199,7 @@ document.getElementById('Rhombus-edit-update').addEventListener('click', functio
     const triangleBFiledValue = getInputFiledValue('triangle-b-filed');
     const triangleHFiledValue = getInputFiledValue('triangle-h-filed');
     if(isNaN(triangleBFiledValue) || isNaN(triangleHFiledValue)){
-        return alert('Places Enter Your Value');
+        return alert('Please Enter Your Value');
     }
     editUpdate('Rhombus-edit', 'block', 'Rhombus-b-filed', 'Rhombus-h-filed', 'Rhombus-b-value', 'Rhombus-h-value', 'Rhombus-value-filed', 'none');
 });
@@ -210,7 +210,7 @@ document.getElementById('Pentagon-calculate-btn').addEventListener('click', func
     const triangleBFiledValue = getInputFiledValue('Pentagon-b-filed');
     const triangleHFiledValue = getInputFiledValue('Pentagon-h-filed');
     if(isNaN(triangleBFiledValue) || isNaN(triangleHFiledValue)){
-        return alert('Places Enter Your Value');
+        return alert('Please Enter Your Value');
     }
 
     calculateBtn('Pentagon-b-filed', 'Pentagon-h-filed', 'Pentagon-edit', 'Pentagon-b-value', 'Pentagon-h-value','Pentagon-value-filed', 'none');
@@ -227,7 +227,7 @@ document.getElementById('Pentagon-edit-update').addEventListener('click', functi
     const triangleBFiledValue = getInputFiledValue('triangle-b-filed');
     const triangleHFiledValue = getInputFiledValue('triangle-h-filed');
     if(isNaN(triangleBFiledValue) || isNaN(triangleHFiledValue)){
-        return alert('Places Enter Your Value');
+        return alert('Please Enter Your Value');
     }
     editUpdate('Pentagon-edit', 'block', 'Pentagon-b-filed', 'Pentagon-h-filed', 'Pentagon-b-value', 'Pentagon-h-value', 'Pentagon-value-filed', 'none');
 });
@@ -238,7 +238,7 @@ document.getElementById('Ellipse-calculate-btn').addEventListener('click', funct
     const triangleBFiledValue = getInputFiledValue('Ellipse-b-filed');
     const triangleHFiledValue = getInputFiledValue('Ellipse-h-filed');
     if(isNaN(triangleBFiledValue) || isNaN(triangleHFiledValue)){
-        return alert('Places Enter Your Value');
+        return alert('Please Enter Your Value');
     }
 
     calculateBtn('Ellipse-b-filed', 'Ellipse-h-filed', 'Ellipse-edit', 'Ellipse-b-value', 'Ellipse-h-value','Ellipse-value-filed', 'none');
@@ -262,7 +262,7 @@ document.getElementById('Ellipse-edit-update').addEventListener('click', functio
     const triangleBFiledValue = getInputFiledValue('triangle-b-filed');
     const triangleHFiledValue = getInputFiledValue('triangle-h-filed');
     if(isNaN(triangleBFiledValue) || isNaN(triangleHFiledValue)){
-        return alert('Places Enter Your Value');
+        return alert('Please Enter Your Value');
     }
     editUpdate('Ellipse-edit', 'block', 'Ellipse-b-filed', 'Ellipse-h-filed', 'Ellipse-b-value', 'Ellipse-h-value', 'Ellipse-value-filed', 'none');
 });
